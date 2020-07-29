@@ -1,5 +1,15 @@
+# Temperature
+Simple package for deno to convert temperature.
+
+# Features
+- simple
+- fast
+- easy to use
+
+# Example
+
 ```ts
-import Converter from "../mod.ts";
+import Converter from "https://raw.githubusercontent.com/Snowflake107/temperature/master/mod.ts";
 
 // celsius
 const celsius = new Converter.Celsius(35);
@@ -76,4 +86,10 @@ Expected Output:
 └───────┴───────────┘
 */
 
+```
+
+# Running (No permissions required)
+
+```sh
+deno run <yourfile>
 ```
